@@ -3,6 +3,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <HeaderDc></HeaderDc>
     <MainDc></MainDc>
+    <FooterDc></FooterDc>
   </div>
 </template>
 
@@ -10,6 +11,8 @@
 import HelloWorld from './components/HelloWorld.vue'
 import MainDc from './components/MainDc.vue'
 import HeaderDc from './components/HeaderDc.vue'
+import FooterDc from './components/FooterDc.vue'
+
 
 export default {
   name: 'App',
@@ -17,6 +20,7 @@ export default {
     HelloWorld,
     HeaderDc,
     MainDc,
+    FooterDc,
   }
 }
 </script>

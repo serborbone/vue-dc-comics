@@ -16,6 +16,45 @@
     <div class="wrap-blue">
         <div class="container">
             <div class="main-bottom">
+                <!-- LISTA LINK -->
+                <ul>
+                    <li>
+                        <div class="li-img">
+                            <img src="../assets/img/buy-comics-digital-comics.png">
+                        </div>
+                        <a href="#">Digital Comics</a>
+                    </li>
+
+                     <li>
+                        <div class="li-img">
+                            <img src="../assets/img/buy-comics-merchandise.png">
+                        </div>
+                        <a href="#">DC Merchandise</a>
+                    </li>
+
+                     <li>
+                        <div class="li-img">
+                            <img src="../assets/img/buy-comics-subscriptions.png">
+                        </div>
+                        <a href="#">Subscription</a>
+                    </li>
+
+                     <li>
+                        <div class="li-img">
+                            <img src="../assets/img/buy-comics-shop-locator.png">
+                        </div>
+                        <a href="#">Comic Shop Locator</a>
+                    </li>
+                    
+
+                     <li>
+                        <div class="li-img">
+                            <img src="../assets/img/buy-dc-power-visa.svg">
+                        </div>
+                        <a href="#">DC Power Visa</a>
+                    </li>
+                </ul>
+                <!-- FINE LISTA LINK -->
             </div>
         </div>
     </div>
@@ -26,31 +65,8 @@
 <script>
 </script>
 
-<style scoped>
-    
-     .container {
-      height: 100%;
-    }
+<style scoped lang="scss">
 
-     .wrap-black {
-      height: 150px;
-      background-color: #1C1C1C;
-    }
-
-    .main-top {
-      height: 100%;
-      display: flex;
-      align-items: center;
-    }
-
-    .main-top h2 {
-      color: #fff;
-    }
-
-    .wrap-blue {
-      background-color: #0282F9;
-      height: 170px;
-    }
-
+     @import "../assets/main.scss";
    
 </style>
