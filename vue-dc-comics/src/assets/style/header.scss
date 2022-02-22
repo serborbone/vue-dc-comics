@@ -1,0 +1,50 @@
+.header {
+      height: 120px;
+    }
+
+    .logo-header {
+      height: 80px;
+    }
+
+    .logo-header img {
+      height: 100%;
+    }
+
+    .menu-header {
+      height: 100%;
+      font-size: 14px;
+    }
+
+    .menu-header ul {
+      display: flex;
+      list-style: none;
+      text-transform: uppercase;
+      height: 100%;
+    }
+
+    .menu-header ul li {
+      height: 100%;
+      padding: 0 13px 0 13px;
+    }
+
+    .menu-header ul li a {
+      padding: 0 3px 0 3px;
+      text-decoration: none;
+      color: #1C1C1C;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .menu-header ul li a:hover {
+      color: #0282F9;
+      border-bottom: 4px solid #0282F9;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }

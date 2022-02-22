@@ -192,5 +192,5 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "../assets/footer.scss";
+    @import "../assets//style/footer.scss";
 </style>
