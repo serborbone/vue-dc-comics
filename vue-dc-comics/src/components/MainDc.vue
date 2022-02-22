@@ -18,40 +18,11 @@
             <div class="main-bottom">
                 <!-- LISTA LINK -->
                 <ul>
-                    <li>
+                    <li v-for="(link, index) in linksMain" :key="index">
                         <div class="li-img">
-                            <img src="../assets/img/buy-comics-digital-comics.png">
+                            <img :src="link.img">
                         </div>
-                        <a href="#">Digital Comics</a>
-                    </li>
-
-                     <li>
-                        <div class="li-img">
-                            <img src="../assets/img/buy-comics-merchandise.png">
-                        </div>
-                        <a href="#">DC Merchandise</a>
-                    </li>
-
-                     <li>
-                        <div class="li-img">
-                            <img src="../assets/img/buy-comics-subscriptions.png">
-                        </div>
-                        <a href="#">Subscription</a>
-                    </li>
-
-                     <li>
-                        <div class="li-img">
-                            <img src="../assets/img/buy-comics-shop-locator.png">
-                        </div>
-                        <a href="#">Comic Shop Locator</a>
-                    </li>
-                    
-
-                     <li>
-                        <div class="li-img">
-                            <img src="../assets/img/buy-dc-power-visa.svg">
-                        </div>
-                        <a href="#">DC Power Visa</a>
+                        <a href="#">{{link.title}}</a>
                     </li>
                 </ul>
                 <!-- FINE LISTA LINK -->
@@ -63,6 +34,43 @@
 </template>
 
 <script>
+  export default {
+    name: 'MainDc',
+    data() {
+      return {
+
+          linksMain: [
+          
+            {
+              img: require('../assets/img/buy-comics-digital-comics.png'),
+              title: 'Digital Comics',
+            },
+
+            {
+              img: require('../assets/img/buy-comics-merchandise.png'),
+              title: 'Dc Merchandise',
+            },
+            
+            {
+              img: require('../assets/img/buy-comics-subscriptions.png'),
+              title: 'Subscription',
+            },
+
+            {
+              img: require('../assets/img/buy-comics-shop-locator.png'),
+              title: 'Comic Shop Locator',
+            },
+
+            {
+              img: require('../assets/img/buy-dc-power-visa.svg'),
+              title: 'Dc Power Visa',
+            },
+          
+          ]
+          
+      }
+    },
+  }
 </script>
 
 <style scoped lang="scss">
