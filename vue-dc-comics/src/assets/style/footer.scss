@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .footer-wrap {
   height: 400px;
   background-image: url('../assets/img/footer-bg.jpg');
@@ -37,7 +39,7 @@
         font-size: 13px;
 
         &:hover {
-          color: #0282F9;
+          color: $blue-color;
         }       
       }
     }
@@ -65,11 +67,11 @@
       padding: 15px;
       text-decoration: none;
       color: #fff;
-      border: 1px solid #0282F9;
+      border: 1px solid $blue-color;
       transition: background-color 0.3s;
 
       &:hover {
-        background-color: #0282F9;
+        background-color: $blue-color;
       }
     }
 
@@ -81,7 +83,7 @@
 
     h3 {
       text-transform: uppercase;
-      color: #0282F9;
+      color: $blue-color;
       margin-right: 18px;
     }
 
